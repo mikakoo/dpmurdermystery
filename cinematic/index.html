@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+	
+	<title>Murder Mystery Events presented by Dramatic Productions</title>
+
+
+	<!-- META DATA -->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=10">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Fantastic fun with a Murder Mystery Event.">
+	<meta name="keywords" content="murder mystery, murder mystery events, team-building, team building, corporate events, fun events">
+	<meta name="author" content="Dramatic Productions (UK) Ltd.">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+	
+	
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	
+	
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="style.css">
+	
+	
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+	<!--[if lt IE 11]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css">
+	<![endif]-->
+	
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,700,900' rel='stylesheet' type='text/css'>
+	
+	<!-- JS -->
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	
+	<!-- FAVICONS .. -->
+
+    
+    
+
+    
+    
+    
+    
+<style>
+    
+    
+    html
+    {
+        background-color: black;
+    }
+
+    
+    
+    #bg-image
+    {
+        z-index: 0;
+        
+        position: fixed;
+        background: url(images/mm-web-opener-bg.jpg) no-repeat center center fixed;
+        min-width: 100%;
+        min-height: 100%;
+
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
+
+    
+    #bg-image-web
+    {
+        z-index: -2;
+
+        position: fixed;
+        background: url(images/mm-web2.jpg) no-repeat center center fixed;
+        min-width: 100%;
+        min-height: 100%;
+
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }    
+    
+    
+    #opener-text
+    {
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        font-size: 7em;
+        
+        position: absolute;
+        width: 100%;
+        top: 44%;
+        text-align: center;
+
+
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+
+        letter-spacing: 0.1em;
+/*        
+        -webkit-transition: letter-spacing 2s;
+           -moz-transition: letter-spacing 2s;
+                transition: letter-spacing 2s;        
+
+
+        -webkit-animation-timing-function: ease;
+           -moz-animation-timing-function: ease;
+                animation-timing-function: ease;    
+*/
+    }
+    
+    
+    #fader
+    {
+        width: 100%;
+        height: 100%;
+        
+        position: fixed;
+        left: 0;
+        top: 0;
+
+        background-color: rgba(0, 0, 0, 1.0);
+/*
+        -webkit-transition: background-color 1s;
+           -moz-transition: background-color 1s;
+                transition: background-color 1s;
+
+        -webkit-animation-timing-function: ease;
+           -moz-animation-timing-function: ease;
+                animation-timing-function: ease;
+*/
+    }
+    
+    
+    
+    #title-text {
+        position: fixed;
+        right: 10%;
+        bottom: 15%;
+        background-image: url(images/murder-mystery-events.png);
+        display: none;
+        width: 620px;
+        height: 322px;
+    }
+
+
+</style>
+
+</head>
+<body class="">
+
+    <script>
+    /*
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25516656-3', 'auto');
+      ga('send', 'pageview');
+    */
+    </script>
+
+
+    <div id="bg-image"></div>
+    <div id="bg-image-web"></div>
+
+    
+    
+    <div id="opener-text">MURDER</div>
+    <div id="fader"></div>
+    
+    <div id="title-text"></div>
+
+    
+    
+	<!-- JS -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    
+
+
+    <script>
+
+    $(document).ready(function() {
+
+        $('#title-text').hide();
+        startIntroAnimation();
+        
+    });
+        
+     
+        
+    function startIntroAnimation()
+    {
+        window.setTimeout(openerText1, 1000);
+    }
+        
+   
+    function setRepetitiveAnimation(spacingduration, fadeduration)
+    {
+        //  does the repetitive stuff for each opener animation
+        $('#opener-text').css({ 'letter-spacing': '0.1em' });
+        $('#opener-text').animate({
+            'letter-spacing': '0.15em'
+            }, spacingduration );        
+
+
+        $('#fader').css({ 'background-color': 'rgba(0, 0, 0, 0.0)' });
+        $('#fader').animate({
+            'background-color': 'rgba(0, 0, 0, 1.0)'
+            }, fadeduration );
+    }
+
+
+
+    function openerText1()
+    {
+        //  set text and size
+        $('#opener-text').text('INTRIGUE');
+        $('#opener-text').css({ 'font-size': '7em' });
+        
+        setRepetitiveAnimation(2000, 1000);
+        
+        window.setTimeout(openerText2, 2500);
+    }     
+
+
+    function openerText2()
+    {
+        $('#opener-text').text('MYSTERY');
+        $('#opener-text').css({ 'font-size': '8em' });
+        
+        setRepetitiveAnimation(2000, 1000);
+        
+        window.setTimeout(openerText3, 2500);
+    }
+
+
+    function openerText3()
+    {
+        $('#bg-image').hide();
+        
+        $('#opener-text').text('MURDER');
+        $('#opener-text').css({ 'font-size': '10em', 
+                                'color': 'rgba(102, 17, 16, 0.5)',
+                                'text-shadow': '0 0 8px rgba(102, 17, 16, 0.7)' });
+        
+        setRepetitiveAnimation(3000, 3000);
+        
+        
+        window.setTimeout(mainSite, 4000);
+    }
+    
+    function mainSite()
+    {
+        $('#opener-text').hide();
+        $('#bg-image-hand').hide();
+        $('#fader').fadeOut();
+        $('#title-text').fadeIn();
+    }
+        
+    
+        
+        
+
+    </script>
+    
+    
+    
+</body>
+</html>
+
+    
