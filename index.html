@@ -13,11 +13,6 @@
 <!-- Startup CSS -->
 <link href="css/startup.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
-<![endif]-->
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="images/favicon.png">
@@ -66,7 +61,6 @@
 <!-- // Parallax Header Ends --> 
     
     
-    
 <!-- Container -->
 <div class="container" id="explore"> 
   <!-- Hero Image -->
@@ -79,9 +73,7 @@
   </section>
   <!-- //Hero Image --> 
   
-    
-    
-    
+
     
   <!-- Features Section -->
   <div class="section-title">
@@ -137,16 +129,11 @@
 </div>
 <!-- // Container Ends --> 
 
-    
-    
-    
-    
-    
-    
+
 <!-- Grey Highlight Section -->
 <div class="highlight testimonials">
   <div class="container"> 
-    
+
     <!-- Testimonials -->
     <div class="section-title">
       <h2>What our customers said</h2>
@@ -169,7 +156,7 @@
       </div>
     </section>
     <!-- // End Testimonials --> 
-    
+
   </div>
 </div>
 <!-- // End Grey Highlight Section --> 
@@ -185,10 +172,30 @@
     <div class="row">
         <div class="col-md-12 breath text-center"> <a href="mailto:info@dpmurdermystery.co.uk" class="btn btn-success btn-lg gototop">Email Us</a><br><br>
         <h3>or Call 07757 487173</h3></div>
+
+		<form name="contact" method="POST" data-netlify="true">
+		  <p>
+			<label>Your Name: <input type="text" name="name" /></label>   
+		  </p>
+		  <p>
+			<label>Your Email: <input type="email" name="email" /></label>
+		  </p>
+		  <p>
+			<label>Message: <textarea name="message"></textarea></label>
+		  </p>
+		  <p>
+			<button type="submit">Send</button>
+		  </p>
+		</form>
+
+
     </div>
   </div>
 </main>
 <!-- // Parallax Footer Ends --> 
+
+
+
 
     
     
